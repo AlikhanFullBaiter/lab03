@@ -24,6 +24,7 @@ public class MyLinkedListQueue <E> {
         if (checkList()) {
             throw new NoSuchElementException();
         }
+        return list.getFirst();
     }
 
     public boolean checkList() {
