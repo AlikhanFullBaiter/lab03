@@ -30,4 +30,8 @@ public class MyLinkedListQueue <E> {
     public boolean checkList() {
         return list.isEmpty();
     }
+
+    public int size() {
+        return list.size();
+    }
 }
