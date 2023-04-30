@@ -14,14 +14,14 @@ public class MyLinkedListQueue <E> {
     }
 
     public E dequeue() {
-        if (list.isEmpty()) {
+        if (checkList()) {
             throw new NoSuchElementException();
         }
         return list.removeFirst();
     }
 
     public E peek() {
-        if (list.isEmpty()) {
+        if (checkList()) {
             throw new NoSuchElementException();
         }
     }
