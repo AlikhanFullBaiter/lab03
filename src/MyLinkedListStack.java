@@ -51,10 +51,16 @@ public class MyLinkedListStack <E> {
         }
         return list.getFirst();
     }
+    /**
+            * Checks if the stack is empty.
+            *
+            * @return true if the stack is empty, false otherwise.
+    */
 
     public boolean checkList () {
         return list.isEmpty();
     }
+
 
     public int size() {
         return list.size();
