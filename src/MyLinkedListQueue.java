@@ -34,4 +34,5 @@ public class MyLinkedListQueue <E> {
     public int size() {
         return list.size();
     }
+
 }
