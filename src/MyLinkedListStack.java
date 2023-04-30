@@ -39,6 +39,12 @@ public class MyLinkedListStack <E> {
         return list.removeFirst();
     }
 
+    /**
+     * Looks at the element at the top of this stack without removing it from the stack.
+    *
+     * * @return the element at the top of this stack.
+    * @throws EmptyStackException if the stack is empty.
+     */
     public E peek() {
         if (checkList()) {
             throw new EmptyStackException();
