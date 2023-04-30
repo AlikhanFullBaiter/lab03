@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
         * @param <E> the type of elements stored in the queue
  */
 public class MyLinkedListQueue <E> {
-    private LinkedList<E> list;
+    private LinkedList<E> list; // the list that holds the elements of the queue
        /**
                * Constructs an empty queue.
          */
@@ -60,6 +60,11 @@ public class MyLinkedListQueue <E> {
         return list.isEmpty();
     }
 
+    /**
+     * Returns the number of elements in the queue.
+     *
+     * @return the number of elements in the queue
+     */
     public int size() {
         return list.size();
     }
