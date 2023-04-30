@@ -1,5 +1,6 @@
 package src;
 import java.util.EmptyStackException;
 import java.util.LinkedList;
-public class MyLinkedListStack {
+public class MyLinkedListStack <E> {
+    private LinkedList<E> list;
 }
