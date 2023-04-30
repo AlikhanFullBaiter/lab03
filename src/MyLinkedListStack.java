@@ -13,17 +13,21 @@ public class MyLinkedListStack <E> {
     }
 
     public E pop() {
-        if (list.isEmpty()) {
+        if (checkList()) {
             throw new EmptyStackException();
         }
         return list.removeFirst();
     }
 
     public E peek() {
-        if (list.isEmpty()) {
+        if (checkList()) {
             throw new EmptyStackException();
         }
         return list.getFirst();
+    }
+
+    public boolean checkList () {
+        return list.isEmpty();
     }
 
 }
