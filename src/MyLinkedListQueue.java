@@ -1,5 +1,6 @@
 
 package src;
-
-public class MyLinkedListQueue {
+import java.util.LinkedList
+public class MyLinkedListQueue <E> {
+    private LinkedList<E> list;
 }
