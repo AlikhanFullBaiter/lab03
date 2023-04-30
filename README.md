@@ -48,3 +48,30 @@ int size = queue.size(); // returns 2
 
 # MyLinkedListStack  🧩
 This is a simple implementation of a stack using a linked list in Java. The stack is a data structure that follows the Last In, First Out (LIFO) principle, meaning that the last element added to the stack will be the first one removed.
+
+# Overview 👨‍💻
+This implementation uses the built-in LinkedList class provided by Java. The class is parameterized with the type of elements in the stack, represented by the generic type <E>. The MyLinkedListStack class provides three main methods: ***push(), pop(), and peek()***.
+
+***push(E element)***: Adds an element to the top of the stack. 
+
+***pop()***: Removes and returns the element at the top of the stack. Throws an EmptyStackException if the stack is empty.
+
+***peek()***: Returns the element at the top of the stack without removing it. Throws an EmptyStackException if the stack is empty.
+
+In addition to these methods, the MyLinkedListStack class also provides two utility methods:
+
+***checkList()***: Returns true if the stack is empty, false otherwise.
+
+***size()***: Returns the number of elements in the stack.
+
+# Usage 🚀
+To use this implementation, create an instance of MyLinkedListQueue and start adding elements:
+```bash
+MyLinkedListStack<String> list = new MyLinkedListStack<>();
+list.push("Hello");
+list.push("world");
+System.out.println(stack.peek()); // Output: "world"
+list.pop();
+System.out.println(stack.peek()); // Output: "Hello"
+```
+  
