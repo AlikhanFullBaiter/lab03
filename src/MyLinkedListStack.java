@@ -26,6 +26,12 @@ public class MyLinkedListStack <E> {
         list.addFirst(element);
     }
 
+    /**
+     * Removes the element at the top of this stack and returns that element.
+    *
+     * @return the element at the top of this stack.
+    * @throws EmptyStackException if the stack is empty.
+     */
     public E pop() {
         if (checkList()) {
             throw new EmptyStackException();
