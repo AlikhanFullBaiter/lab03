@@ -3,6 +3,11 @@ package src;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
+/**
+        * This class implements a queue using a LinkedList.
+        *
+        * @param <E> the type of elements stored in the queue
+ */
 public class MyLinkedListQueue <E> {
     private LinkedList<E> list;
     public MyLinkedListQueue(){
