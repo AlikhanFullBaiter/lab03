@@ -7,4 +7,18 @@ public class MyLinkedListStack <E> {
     public MyLinkedListStack() {
         list = new LinkedList<>();
     }
+
+    public void push(E element) {
+        list.addFirst(element);
+    }
+
+    public E pop() {
+        if (list.isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return list.removeFirst();
+    }
+
+
+
 }
