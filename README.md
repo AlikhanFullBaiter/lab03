@@ -45,3 +45,6 @@ And to get the number of elements in the queue, use the size method:
 ```bash
 int size = queue.size(); // returns 2
 ```
+
+# MyLinkedListStack  🧩
+This is a simple implementation of a stack using a linked list in Java. The stack is a data structure that follows the Last In, First Out (LIFO) principle, meaning that the last element added to the stack will be the first one removed.
