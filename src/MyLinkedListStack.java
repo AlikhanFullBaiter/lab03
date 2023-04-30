@@ -30,4 +30,7 @@ public class MyLinkedListStack <E> {
         return list.isEmpty();
     }
 
+    public int size() {
+        return list.size();
+    }
 }
