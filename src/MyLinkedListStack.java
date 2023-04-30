@@ -17,7 +17,11 @@ public class MyLinkedListStack <E> {
         list = new LinkedList<>();
     }
 
-    
+    /**
+            * Pushes an element onto the top of this stack.
+    *
+         * @param element the element to be pushed onto this stack.
+    */
     public void push(E element) {
         list.addFirst(element);
     }
