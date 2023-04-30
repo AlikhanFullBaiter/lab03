@@ -25,4 +25,8 @@ public class MyLinkedListQueue <E> {
             throw new NoSuchElementException();
         }
     }
+
+    public boolean checkList() {
+        return list.isEmpty();
+    }
 }
