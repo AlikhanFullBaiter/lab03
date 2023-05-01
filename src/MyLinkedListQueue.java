@@ -23,7 +23,7 @@ public class MyLinkedListQueue <E> {
             * @param element the element to be added to the queue
      */
     public void enqueue(E element) {
-        list.addFirst(element);
+        list.addLast(element);
     }
 
     /**
